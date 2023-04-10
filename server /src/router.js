@@ -30,11 +30,11 @@ const amadeus = new Amadeus({
      
       const response = await amadeus.shopping.flightOffersSearch.get({
       
-            originLocationCode:`${dept}`,
-            destinationLocationCode:`${arr}`,
-            departureDate:`${deptDate}`,
-            adults:`${adults}`,
-            children:`${child}`
+            originLocationCode:dept,
+            destinationLocationCode:arr,
+            departureDate:deptDate,
+            adults:adults,
+            children:child
       }
       );
   
